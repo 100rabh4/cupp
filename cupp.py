@@ -77,7 +77,7 @@ def read_config(filename):
         # config file too.
         leet = functools.partial(config.get, "leet")
         leetc = {}
-        letters = {"a", "i", "e", "t", "o", "s", "g", "z"}
+        letters = {"a", "i", "e", "t", "o", "s", "g", "z", "s", "h", "a"}
 
         for letter in letters:
             leetc[letter] = config.get("leet", letter)
